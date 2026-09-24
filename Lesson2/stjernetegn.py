@@ -18,7 +18,8 @@ Krav
 
 
 def def_starsign():
-    birthday = int(input("Hvad er din fødselsmåned?"))
+    month = int(input("Hvad er din fødselsmåned?"))
+    day = int(input("Hvilken dag er du født?"))
 
     if birthday == 1:
         print("Stenbuk")
@@ -46,6 +47,8 @@ def def_starsign():
         print("Skytte")
     else:
         print("Ugyldigt input. Prøv igen")
+
+
 
 
 
@@ -81,6 +84,89 @@ def def_starsign_short():
             print("Ugyldigt input. Prøv igen")
 
 
-def_starsign()
 
+
+
+def def_starsign():
+    month = int(input("Hvad er din fødselsmåned? "))
+    day = int(input("Hvilken dag er du født? "))
+
+    if month == 1:
+        if day <= 19:
+            return "Stenbuk"
+        else:
+            return "Vandmand"
+
+    elif month == 2:
+        if day <= 18:
+            return "Vandmand"
+        else:
+            return "Fisk"
+
+    elif month == 3:
+        if day <= 20:
+            return "Fisk"
+        else:
+            return "Vædder"
+
+    elif month == 4:
+        if day <= 19:
+            return "Vædder"
+        else:
+            return "Tyr"
+
+    elif month == 5:
+        if day <= 20:
+            return "Tyr"
+        else:
+            return "Tvilling"
+
+    elif month == 6:
+        if day <= 20:
+            return "Tvilling"
+        else:
+            return "Krebs"
+
+    elif month == 7:
+        if day <= 22:
+            return "Krebs"
+        else:
+            return "Løve"
+
+    elif month == 8:
+        if day <= 22:
+            return "Løve"
+        else:
+            return "Jomfru"
+
+    elif month == 9:
+        if day <= 22:
+            return "Jomfru"
+        else:
+            return "Vægt"
+
+    elif month == 10:
+        if day <= 22:
+            return "Vægt"
+        else:
+            return "Skorpion"
+
+    elif month == 11:
+        if day <= 21:
+            return "Skorpion"
+        else:
+            return "Skytte"
+
+    elif month == 12:
+        if day <= 21:
+            return "Skytte"
+        else:
+            return "Stenbuk"
+
+    else:
+        return "Ugyldig måned"
+
+
+starsign = def_starsign()
+print("Dit stjernetegn er:", starsign)
 
