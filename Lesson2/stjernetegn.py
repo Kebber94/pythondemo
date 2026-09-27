@@ -18,8 +18,7 @@ Krav
 
 
 def def_starsign():
-    month = int(input("Hvad er din fødselsmåned?"))
-    day = int(input("Hvilken dag er du født?"))
+    birthday = int(input("Hvad er din fødselsmåned?"))
 
     if birthday == 1:
         print("Stenbuk")
