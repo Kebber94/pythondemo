@@ -1,8 +1,8 @@
 
 
 # Variabler
-min_number = 1
-max_number = 20
+# min_number = 1
+# max_number = 20
 users_guess = 0
 
 
