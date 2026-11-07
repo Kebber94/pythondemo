@@ -1,0 +1,7 @@
+=== Marsvin Register ===
+
+Navn  : kim
+Alder : 3 aar
+Vægt  : 1.1 kg
+Race  : TEDDY
+------------------------------
