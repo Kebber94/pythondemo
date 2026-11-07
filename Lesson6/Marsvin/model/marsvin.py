@@ -43,6 +43,9 @@ class Marsvin:
             self.__vaegt = vaegt
 
     def __str__(self):
-        return f"{self.__navn} ({self.__alder} år, {self.__vaegt} kg {self.__race} race)"
+        return f"{self.__navn} ({self.__alder} år, {self.__vaegt} kg {self.__race.name} race)"
+
+svin = Marsvin("Thomas", 23, 1000, Race.TEDDY)
+print(svin)
 
 
